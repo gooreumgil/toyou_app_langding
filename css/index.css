@@ -1,0 +1,422 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+
+html,body {
+    height: 100%;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    height: 80px;
+}
+
+.header a {
+    color: #fff;
+}
+
+.header ul {
+    padding: 0;
+}
+
+.header .logo {
+    padding-left: 40px;
+}
+
+.header .logo a {
+    line-height: 80px;
+    font-size: 0;
+}
+
+.header .logo .logo_helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.header .logo img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header .nav {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.header .nav li {
+    display: inline-block;
+    margin: 0 20px;
+    vertical-align: middle;
+    font-size: 0;
+}
+
+.header .nav li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 80px;
+    transition: all .2s ease-in-out;
+}
+
+.header .nav li a:hover {
+    color: #58b9eb;
+}
+
+.header .get_app {
+    text-align: right;
+    vertical-align: middle;
+    padding-right: 40px;
+}
+
+.header .get_app li {
+    float: right;
+}
+
+.header .get_app li a {
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 80px;
+    font-size: 0px;
+    font-weight: 400;
+    transition: all .1s ease-in-out;
+}
+
+.header .get_app li a span {
+    line-height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header .get_app li a img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header .get_app .insta a {
+    margin-left: 16px;
+}
+
+/* BANNER */
+
+.banner {
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/banner_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.banner h2,
+.banner p {
+    color: #fff;
+}
+
+.banner .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+.banner .container h2 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.banner .container h1 {
+    margin-top: 40px;
+}
+
+.banner .container p {
+    font-size: 18px;
+    font-weight: 200;
+    margin-top: 60px;
+    line-height: 1.9;
+}
+
+.banner .play_store {
+    margin-top: 40px;
+}
+
+.banner .title {
+    margin-top: 80px;
+}
+
+.banner .mockup {
+    text-align: center;
+}
+
+/* INTRODUCE */
+
+.introduce {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+}
+
+.introduce .intro_container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.intro_container .intro_main {
+    margin-top: 200px;
+}
+
+.intro_container .intro_main h2 {
+    font-size: 38px;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 22px;
+}
+
+.intro_container .intro_main p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #8b8b8b;
+}
+
+.intro_container .intro_main .intro_mockup {
+    margin-top: 130px;
+}
+
+.intro_container .intro_sub {
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+
+.intro_container .intro_sub span {
+    color: #58b9eb;
+    font-weight: 500;
+}
+
+.intro_container .intro_sub h3 {
+    font-size: 24px;
+    font-weight: 300;
+    color: #555;
+}
+
+.intro_container .intro_sub .sub_text {
+    font-size: 16px;
+    font-weight: 300;
+    color: #8b8b8b;
+    margin-top: 32px;
+}
+
+.intro_container .intro_sub .bottom_text {
+    font-size: 14px;
+    font-weight: 300;
+    color: #a0a0a0;
+    margin-top: 20px;
+}
+
+/* DIGITAL & ANALOG */
+
+.digital_analog {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #f9f9f9;
+    padding-bottom: 140px;
+}
+
+.digital_analog .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+.digital_analog .container .text {
+    margin-top: 80px;
+}
+
+.digital_analog .container .text span {
+    color: #58b9eb;
+    font-weight: 500;
+}
+
+.digital_analog .container .text h2 {
+    font-size: 38px;
+    font-weight: 300;
+    color: #555;
+}
+
+.digital_analog .container .text h3 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #8b8b8b;
+    margin-top: 28px;
+}
+
+.digital_analog .container .text p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #a0a0a0;
+    margin-top: 44px;
+    line-height: 1.6;
+}
+
+/* APP STORY */
+
+.app_story {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.app_story .app_story_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 340px;
+    margin-bottom: 200px;
+}
+
+.app_story .app_story_wrap h2 {
+    font-size: 38px;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 22px;
+}
+
+.app_story .app_story_wrap .title_sub {
+    font-size: 16px;
+    font-weight: 300;
+    color: #8b8b8b;
+}
+
+.app_story .app_story_wrap .text_body {
+    font-size: 15px;
+    font-weight: 300;
+    color: #8b8b8b;
+    margin-top: 36px;
+    line-height: 1.7;
+}
+
+.app_story .app_story_wrap .inner_container {
+    margin: 0 35px;
+    margin-top: 50px;
+}
+
+.app_story .app_story_wrap .inner_container a {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    background-color: #58b9eb;
+    padding: 14px 25px;
+    border-radius: 100px;
+    margin-top: 42px;
+}
+
+.app_story .app_story_wrap .inner_container a .arrow {
+    display: inline-block;
+    background-image: url(../img/app_story/arrow.png);
+    width: 12px;
+    height: 6px;
+    margin-left: 12px;
+}
+
+/* TUTORIAL */
+
+.tutorial {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    background-color: #f3f3f3;
+}
+
+.tutorial .tutorial_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 240px;
+    padding-bottom: 140px;
+}
+
+.tutorial .tutorial_title h2 {
+    font-size: 38px;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 22px;
+}
+
+.tutorial .tutorial_title p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #8b8b8b;
+}
+
+.tutorial_wrap {
+    margin-top: 82px;
+}
+
+/* REVIEW */
+
+.review {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    
+}
+
+.review .review_container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.review .review_title h2 {
+    font-size: 38px;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 22px;
+}
+
+.review .review_title p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #8b8b8b;
+}
+
+.review .review_wrap {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.review .review_wrap h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    margin-top: 44px;
+}
+
+.review .review_wrap p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #8b8b8b;
+    margin-top: 16px;
+    line-height: 1.4;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* FOOTER */
+
+.app_down {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #58b9eb;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+.app_down .app_down_container {
+    margin: 0 auto;
+    padding: 200px 0 200px 0; 
+}
+
+.app_down .app_down_container h2 {
+    margin-top: 30px;
+}
+
+.app_down .app_down_container a {
+    margin-top: 40px;
+}
